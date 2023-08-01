@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js" ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="" >
+      <div>
+          <label for="firstname">First Name</label>
+          <input type="text"  id="firstname" required/>
+
+      </div>
+      <div>
+          <label for="lastname">Last Name</label>
+          <input type="text"  id="lastname" required/>
+      </div>
+      <div>
+          <label for="phoneNumber" >Phone Number</label>
+          <input type="number" id="phoneNumber" />
+          <p>Phone number must be at between (11-14) digits.</p>
+      </div>
+      <div>
+          <label for="email"> Email</label>
+          <input type="email"  id="email" />
+          <p>Email must include "@", a domain and an extension.</p>
+      </div>
+      <div>
+          <label for="password" Password</label>
+          <input type="text" id="password" />
+          <p>Password must be at least 6 characters long.</p>
+      </div>
+
+        <button type="submit" onclick="handleSubmit()">Submit</button>
+    </form>
+    
+  </body>
+</html>
